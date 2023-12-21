@@ -1,0 +1,69 @@
+::selection{
+    background-color: #fec260;   
+}
+.home{
+    background-color: #F7ECDE;
+}
+.home h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    position: relative;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.home h1::before{
+    content: '';
+    position: absolute;
+    width: 270px;
+    height: 35%;
+    left: 50%;
+    bottom: 1px;
+    background-color: #fec260;
+    z-index: -1;
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+
+.home h1:hover::before{
+    height: 80%;
+}
+.home .book-body {
+    border-width: 2px 0px 2px 0px;
+    border-style: dashed;
+    border-color: black;
+   
+}
+.home .book-body h2{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home .book-body .beforei{
+  color: #3ca55c;
+}
+.home .book-body .afteri{
+    color:#b5ac49;
+}
+#fixed-box{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.7);
+    }
+    #parent{
+    width:40%;
+    }
+    
+    #closeBtn{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    }
+   
+.circles .circle1{
+    width:20px;
+    height: 20px;
+}
