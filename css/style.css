@@ -67,3 +67,26 @@
     width:20px;
     height: 20px;
 }
+@media screen and (max-width :1200px){
+    #parent{
+        width:60% !important; 
+        
+    }
+   }
+   @media screen and (max-width :992px){
+    #parent{
+        width:70% !important; 
+   }}
+   /* md */
+   @media screen and (max-width :768px){
+    #parent{
+        width:80% !important; 
+   }
+   }
+   @media screen and (max-width :576px){
+    #parent{
+        width:100% !important; 
+   }
+   }
+
+ 

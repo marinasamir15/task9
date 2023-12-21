@@ -49,8 +49,8 @@ function display(){
        <a href="${productList[i].sUrl}" target="_blank"><button class="btn btn-success px-2"><i class="fa-solid fa-eye mx-2"></i>Visit</button></a>
      </td>
      <td>
-     <button class="btn btn-outline-warning px-2"onclick="setproduct(${i})" ><i class="fa-solid fa-upload mx-2"></i>Update</button>
-       <button class="btn btn-danger px-2"onclick="deleter(${i})" ><i class="fa-solid fa-trash mx-2"></i>Delete</button>
+     <button class="btn btn-outline-warning px-2 m-2"onclick="setproduct(${i})" ><i class="fa-solid fa-upload mx-2"></i>Update</button>
+       <button class="btn btn-danger px-2 "onclick="deleter(${i})" ><i class="fa-solid fa-trash mx-2"></i>Delete</button>
      </td>
    </tr> `
     }
@@ -75,7 +75,7 @@ function search(){
        <a href="${productList[i].sUrl}" target="_blank"><button class="btn btn-success px-2"><i class="fa-solid fa-eye mx-2"></i>Visit</button></a>
      </td>
      <td>
-     <button class="btn btn-outline-warning px-2"onclick="setproduct(${i})" ><i class="fa-solid fa-upload mx-2"></i>Update</button>
+     <button class="btn btn-outline-warning m-2  px-2"onclick="setproduct(${i})" ><i class="fa-solid fa-upload mx-2"></i>Update</button>
        <button class="btn btn-danger px-2"onclick="deleter(${i})" ><i class="fa-solid fa-trash mx-2"></i>Delete</button>
      </td>
    </tr> `
